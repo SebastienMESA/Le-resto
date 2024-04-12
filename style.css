@@ -1,0 +1,163 @@
+@font-face {
+    font-family: "Allura";
+    src: url(./assets/fonts/Allura-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(./assets/fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(./assets/fonts/Roboto-Light.ttf);
+}
+
+:root {
+    --white1: rgb(240, 240, 240);
+    --black1: rgb(10, 10, 10);
+    --color1: rgb(22, 21, 19);
+    --color2: rgb(167, 123, 28);
+    --color3: rgb(160, 160, 160);
+    /* main font  */
+    --font1: "Poppins";
+    /* title font  */
+    --font2: "Roboto";
+    /* span font  */
+    --font3: "Allura";
+}
+
+.header {
+    background: url(./assets/img/bg-slider-06.jpg) center/cover no-repeat;
+    min-height: 80vh;
+    color: var(--white1);
+    text-align: center;
+}
+
+.header__nav {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.nav-title {
+    font-family: var(--font3);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    font-family: var(--font2);
+    text-transform: uppercase;
+}
+
+.nav__socials {
+    display: flex;
+    justify-content: space-between;
+    width: 5rem;
+}
+
+.header__title {
+    margin-top: 10rem;
+    font-family: var(--font1);
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.8rem;
+    line-height: 80%;
+}
+
+.header__title--span {
+    color: var(--color2);
+    font-family: var(--font3);
+    font-weight: normal;
+    letter-spacing: initial;
+    text-transform: initial;
+}
+
+.header__plate-icone {
+    margin-top: 3.5rem;
+}
+
+.header__paragraph {
+    font-family: var(--font2);
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    font-size: 1rem;
+    margin-top: 3rem;
+}
+
+.presentation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: var(--font2);
+}
+
+.presentation-left {
+    text-align: center;
+    margin: 15px;
+    padding: 20px 15px;
+    border: 1px dashed var(--color2);
+}
+
+.presentation__title {
+    font-family: var(--font1);
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.presentation__title--span {
+    color: var(--color2);
+    font-family: var(--font3);
+    font-weight: normal;
+    font-size: 2.3rem;
+    letter-spacing: initial;
+    text-transform: initial;
+
+}
+
+.plate-icone {
+    margin: 2rem auto;
+}
+
+.presentation__russell--img {
+    height: 60px;
+    border-radius: 3000px;
+    margin: 1.5rem auto 1rem;
+}
+
+.presentation__russell--legend {
+    font-family: var(--font1);
+
+}
+
+.presentation__russell--span {
+    font-family: var(--font2);
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: var(--color3);
+    text-transform: uppercase;
+
+}
+
+
+
+.presentation-right {
+    background: url(./assets/img/store-01.jpg) center/cover no-repeat;
+}
+
+.menu {
+    background-color: var(--color1);
+    color: var(--white1);
+}
+
+
+
+
